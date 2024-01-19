@@ -1,13 +1,16 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {Text, SafeAreaView } from 'react-native';
-import { TouchableOpacity } from 'react-native';
-import NavBar from './app/components/NavBar';
+import {
+    Text,
+    SafeAreaView,
+    DrawerLayoutAndroid,
+} from 'react-native';
+import HomeScreen from './app/components/Home';
 
 export default function App() {
     return (
         <SafeAreaView>
-        <NavBar/>
-       </SafeAreaView> 
-        
-    );
+            <HomeScreen />
+        </SafeAreaView>
+    )
 }
