@@ -5,10 +5,12 @@ import {
     Text,
     StyleSheet,
     TouchableOpacity,
-    Image,
+    Image as Icon,
     ScrollView,
     Dimensions,
     TextInput,
+    
+
 
 
 } from 'react-native';
@@ -118,7 +120,7 @@ const HomeScreen = () => {
                     <View style={styles.menuBox}>
                         <TouchableOpacity style={styles.button} onPress={() => alert('Coming Soon')}>
                             <Icon
-                                name='cog'
+                                name='config'
                                 type='font-awesome'
                                 color='#fff'
                                 size={50}
