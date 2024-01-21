@@ -100,7 +100,7 @@ const HomeScreen = () => {
                             <Icon
                                 name='users'
                                 type='font-awesome'
-                                color='#fff'
+                                color='#ffffff'
                                 size={50}
                             />
                             <Text style={styles.info}>Users</Text>
